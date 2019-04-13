@@ -78,16 +78,6 @@ autocmd BufWinLeave ?* silent mkview
 autocmd BufWinEnter ?* silent loadview
 
 " =======================================================
-" 追加プラグイン用
-" =======================================================
-
-PDV - phpDocumentor for Vim
-source ~/.vim/php-doc.vim
-inoremap <C-P> <ESC>:call PhpDocSingle()<CR>i 
-nnoremap <C-P> :call PhpDocSingle()<CR> 
-vnoremap <C-P> :call PhpDocRange()<CR> 
-
-" =======================================================
 " バッファ移動
 " =======================================================
 
@@ -108,7 +98,7 @@ vnoremap <C-c> :bd! <CR>
 autocmd InsertLeave * set nopaste
 
 " =======================================================
-" 矢印キー無効化
+" 矢印 => 画面移動に変更
 " =======================================================
 
 noremap <Up> <C-w>k
