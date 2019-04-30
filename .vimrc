@@ -121,4 +121,5 @@ call plug#begin()
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
+Plug 'tomasr/molokai'
 call plug#end()
