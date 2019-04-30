@@ -113,3 +113,12 @@ noremap <Right> <C-w>l
 noremap <S-h> ^
 noremap <S-l> $
 
+" =======================================================
+" vim-plug
+" =======================================================
+
+call plug#begin()
+Plug 'bronson/vim-trailing-whitespace'
+Plug 'scrooloose/nerdtree'
+Plug 'jistr/vim-nerdtree-tabs'
+call plug#end()
