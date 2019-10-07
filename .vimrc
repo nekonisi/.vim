@@ -22,7 +22,7 @@ set showcmd
 " 行番号を表示
 set number
 " 現在の行を強調表示
-"set cursorline
+set cursorline
 " 行末の1文字先までカーソルを移動できるように
 set virtualedit=onemore
 " インデントはスマートインデント
@@ -113,3 +113,7 @@ noremap <Right> <C-w>l
 noremap <S-h> ^
 noremap <S-l> $
 
+" =======================================================
+" インデント
+" =======================================================
+set expandtab
